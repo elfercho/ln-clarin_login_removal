@@ -3,7 +3,7 @@
   "version": "1.0",
   "manifest_version": 2,
   "content_scripts": [{
-      "matches": ["http://*.lanacion.com.ar/*", "http://*.clarin.com/*"],
+      "matches": ["*.lanacion.com.ar/*", "*.clarin.com/*"],
       "js": ["contentscript.js"],
       "run_at": "document_idle"
   }],
